@@ -10,7 +10,7 @@ spec:
       class: best-effort-xsmall
       storageClass: high-performance-ssd
     workers:
-      count: 2
+      count: 3
       class: best-effort-xsmall
       storageClass: high-performance-ssd
   distribution:
