@@ -2,7 +2,7 @@ apiVersion: run.tanzu.vmware.com/v1alpha1
 kind: TanzuKubernetesCluster
 metadata:
   name: gitops-demo-cluster
-  namespace: ns1
+  namespace: argocd
 spec:
   topology:
     controlPlane:
