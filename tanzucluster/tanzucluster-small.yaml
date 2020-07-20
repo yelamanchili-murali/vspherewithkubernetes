@@ -1,8 +1,8 @@
 apiVersion: run.tanzu.vmware.com/v1alpha1
 kind: TanzuKubernetesCluster
 metadata:
-  name: argocd-cluster
-  namespace: argocd
+  name: gitops-demo-cluster
+  namespace: ns1
 spec:
   topology:
     controlPlane:
@@ -10,7 +10,7 @@ spec:
       class: best-effort-xsmall
       storageClass: high-performance-ssd
     workers:
-      count: 3
+      count: 1
       class: best-effort-xsmall
       storageClass: high-performance-ssd
   distribution:
