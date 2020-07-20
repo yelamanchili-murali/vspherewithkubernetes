@@ -8,11 +8,11 @@ spec:
     controlPlane:
       count: 1
       class: best-effort-xsmall
-      storageClass: high-performance-ssd
+      storageClass: pacific-gold-storage-policy
     workers:
       count: 1
       class: best-effort-xsmall
-      storageClass: high-performance-ssd
+      storageClass: pacific-gold-storage-policy
   distribution:
     version: v1.16
   settings:
