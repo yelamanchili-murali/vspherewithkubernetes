@@ -10,7 +10,7 @@ spec:
       class: best-effort-xsmall
       storageClass: pacific-gold-storage-policy
     workers:
-      count: 1
+      count: 2
       class: best-effort-xsmall
       storageClass: pacific-gold-storage-policy
   distribution:
